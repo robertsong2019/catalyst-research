@@ -10,9 +10,11 @@
 - [[a2a-protocol]] — Agent-to-Agent Protocol：Agent 间的"HTTP"，50+ 企业支持
 
 ### AI & Agent
+- [[agent-architecture-evolution]] — Agent 架构三阶段演进：单体→模块化→联邦
+- [[agent-engineering]] — Agentic Engineering 概念、与传统软件工程的区别
+- [[agent-security-safety]] — Agent 安全：五大威胁模型与防护模式
 - [[harness-engineering]] — Harness Engineering：AI驾驭工程，给AI装缰绳的范式
 - [[openclaw-multi-agent-optimization]] — OpenClaw 多Agent架构优化方向
-- [[agent-engineering]] — Agentic Engineering 概念、与传统软件工程的区别
 - [[agent-cluster-cathedral-vs-bazaar]] — Agent集群：大教堂 vs 集市模式
 - [[agent-communication-entropy]] — 降低Agent间沟通熵的五个原则
 - [[rag-vs-wiki]] — RAG / GraphRAG / 结构化Wiki 的对比分析
@@ -20,6 +22,8 @@
 - [[karpathy-wiki-method]] — Karpathy 的 LLM+Obsidian 知识管理方法论
 - [[edge-ai-trends]] — 边缘AI趋势：SLM + 量化 + 本地部署
 - [[prompt-engineering-evolution]] — 从 Prompt Engineering 到 Agentic Engineering 的演进
+- [[twelve-factor-agents]] — 可靠 LLM 应用的 12 条设计原则
+- [[ai-rapid-prototyping]] — 2026 年 AI 原型开发效率提升 10-100 倍
 
 ### 架构设计
 - [[knowledge-vs-memory]] — 知识库 vs 记忆的本质区别与互补关系
@@ -31,6 +35,7 @@
 - [[agent-memory-architecture]] — Agent Memory：三层存储 + 混合架构的认知系统
 - [[agent-trust-network]] — Agent Trust Network：多Agent系统的去中心化信任评估
 - [[edge-agent-runtime]] — 边缘 AI Agent 运行时：轻量级、模块化、SLM 支持
+- [[openai-agents-sdk]] — OpenAI Agents SDK：Python-first 的生产级 Agent 框架
 
 ### 项目经验
 - [[project-lessons]] — 各项目中的经验教训和设计决策记录
