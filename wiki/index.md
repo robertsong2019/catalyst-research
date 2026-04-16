@@ -5,6 +5,10 @@
 
 ## 知识页面
 
+### 协议与标准
+- [[mcp-protocol]] — Model Context Protocol：AI Agent 的"USB-C接口"，97M+ 下载量
+- [[a2a-protocol]] — Agent-to-Agent Protocol：Agent 间的"HTTP"，50+ 企业支持
+
 ### AI & Agent
 - [[harness-engineering]] — Harness Engineering：AI驾驭工程，给AI装缰绳的范式
 - [[openclaw-multi-agent-optimization]] — OpenClaw 多Agent架构优化方向
@@ -22,12 +26,23 @@
 - [[agent-orchestration]] — 多Agent编排模式与最佳实践
 - [[tool-design-principles]] — 工具设计原则：零依赖、AI友好、结构化输出
 
+### Agent 系统核心
+- [[multi-agent-framework-integration]] — 多Agent框架：LangGraph/CrewAI/ADK/A2A 全景分析
+- [[agent-memory-architecture]] — Agent Memory：三层存储 + 混合架构的认知系统
+- [[agent-trust-network]] — Agent Trust Network：多Agent系统的去中心化信任评估
+- [[edge-agent-runtime]] — 边缘 AI Agent 运行时：轻量级、模块化、SLM 支持
+
 ### 项目经验
 - [[project-lessons]] — 各项目中的经验教训和设计决策记录
 
 ---
 
 ## 变更日志
+
+### 2026-04-16
+- 从研究笔记中提取 5 个核心主题，创建 LLM Wiki 页面
+- 新增：MCP Protocol、A2A Protocol、Multi-Agent Integration、Agent Memory、Agent Trust Network
+- 完善交叉引用，形成知识网络
 
 ### 2026-04-07
 - 初始化知识库，创建基础结构
