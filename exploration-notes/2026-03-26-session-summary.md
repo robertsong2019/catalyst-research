@@ -66,4 +66,4 @@
 
 ---
 
-*详细笔记已保存到: memory/exploration-notes/2026-03-26-micro-agent-protocol.md*
+*详细笔记已保存到: exploration-notes/2026-03-26-micro-agent-protocol.md*

@@ -156,7 +156,7 @@ feat: 添加 WebAssembly 深度探索随笔 + 新增两个项目
 - **价值**: 分享实践经验、教训、洞察
 
 ### 4. 探索笔记整理
-`memory/exploration-notes/` 目录下的笔记应定期：
+`exploration-notes/` 目录下的笔记应定期：
 - 提炼核心观点
 - 更新到 MEMORY.md
 - 生成随笔（如果足够重要）

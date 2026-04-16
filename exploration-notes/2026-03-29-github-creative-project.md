@@ -165,7 +165,7 @@
 ## 探索记录
 
 详细的技术探索和发现记录见：
-- `/memory/exploration-notes/2026-03-29-github-creative-completion-summary.md`
+- `/exploration-notes/2026-03-29-github-creative-completion-summary.md`
 - 各模块实现过程中的具体技术决策和架构设计记录
 
 **项目状态：** ✅ **圆满完成**

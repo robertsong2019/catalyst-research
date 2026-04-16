@@ -44,12 +44,12 @@ Conducted a 2-hour deep dive into AI agent programming by analyzing real-world i
 ## Key Artifacts Created
 
 1. **Comprehensive Notes** (24KB)
-   - `/memory/exploration-notes/2026-03-25-ai-agent-programming.md`
+   - `/exploration-notes/2026-03-25-ai-agent-programming.md`
    - 12 sections covering architecture, patterns, challenges, future directions
    - Code examples and practical applications
 
 2. **Quick Reference Guide** (2KB)
-   - `/memory/exploration-notes/2026-03-25-agent-patterns-quickref.md`
+   - `/exploration-notes/2026-03-25-agent-patterns-quickref.md`
    - Cheat sheets for execution modes, patterns, configuration
    - Common gotchas and monitoring commands
 
@@ -189,4 +189,4 @@ The most sophisticated systems (like gh-issues orchestrator) combine simple prim
 
 ---
 
-**Session completed successfully. All artifacts saved to `/memory/exploration-notes/`**
+**Session completed successfully. All artifacts saved to `/exploration-notes/`**

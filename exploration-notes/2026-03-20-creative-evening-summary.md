@@ -176,7 +176,7 @@ Agents thinking about their own thinking - how meta can we get?
 1. **README.md** - Project overview and philosophy
 2. **EXAMPLES.md** - Usage examples and integration guide
 3. **demo.ts** - Interactive demonstration
-4. **Exploration notes** - `memory/exploration-notes/2026-03-20-agent-self-reflection.md`
+4. **Exploration notes** - `exploration-notes/2026-03-20-agent-self-reflection.md`
 5. **Daily log updated** - `memory/2026-03-20.md`
 
 ---

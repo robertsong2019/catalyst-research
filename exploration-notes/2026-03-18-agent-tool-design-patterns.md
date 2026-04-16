@@ -1317,8 +1317,8 @@ Agent 通过阅读文档来理解如何使用工具。因此：
 **探索时间**: 2026-03-18 20:00 - 21:30 (1.5 小时)
 **笔记字数**: ~15,000 字
 **相关文件**: 
-- `memory/exploration-notes/2026-03-18-agent-self-evolution.md` (Agent 自我进化)
-- `memory/exploration-notes/lightweight-log.md` (轻量级探索日志)
+- `exploration-notes/2026-03-18-agent-self-evolution.md` (Agent 自我进化)
+- `exploration-notes/lightweight-log.md` (轻量级探索日志)
 
 ---
 
