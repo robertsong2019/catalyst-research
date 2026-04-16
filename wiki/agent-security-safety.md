@@ -90,6 +90,8 @@ class Guardrail:
 - [[agent-engineering]] — 安全是 Agentic Engineering 的关键维度
 - [[harness-engineering]] — Harness 的核心就是给 AI 装缰绳
 - [[edge-agent-runtime]] — 边缘设备的安全约束更严格
+- [[twelve-factor-agents]] — 安全是 12-Factor Agents 的核心原则
+- [[agent-architecture-evolution]] — 联邦阶段的安全需求更高
 
 ---
 _最后更新：2026-04-16_

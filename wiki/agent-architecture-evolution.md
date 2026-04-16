@@ -93,11 +93,11 @@ Agent 自我评估和改进。
 4. **安全内建** — 从阶段 3 开始，安全是架构的一部分
 
 ## 关联
-- [[mcp-protocol]] — 工具访问标准
-- [[a2a-protocol]] — Agent 通信标准
-- [[multi-agent-framework-integration]] — 多 Agent 框架全景
-- [[agent-security-safety]] — Agent 安全架构
-- [[agent-engineering]] — Agentic Engineering 的演进
+- [[multi-agent-framework-integration]] — 架构演进驱动框架选择
+- [[mcp-protocol]] — 模块化阶段的工具标准化
+- [[a2a-protocol]] — 联邦阶段的 Agent 通信标准化
+- [[agent-engineering]] — 架构演进是 Agentic Engineering 的主线
+- [[agent-security-safety]] — 安全需求随架构复杂度增长
 
 ---
 _最后更新：2026-04-16_

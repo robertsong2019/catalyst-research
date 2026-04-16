@@ -73,6 +73,7 @@ def safe_execute(tool, args, permissions):
 - [[agent-engineering]] — 12-Factor Agents 是 Agentic Engineering 的基础
 - [[agent-security-safety]] — 安全原则的具体实践
 - [[harness-engineering]] — Harness 是 12-Factor 思想的延伸
+- [[ai-rapid-prototyping]] — 快速原型也需要遵循 12-Factor
 
 ---
 _最后更新：2026-04-16_

@@ -74,9 +74,10 @@ triage_agent = Agent(
 5. **Swarm 的生产版** — 从实验到产品的进化
 
 ## 关联
-- [[multi-agent-framework-integration]] — 框架全景对比
-- [[agent-security-safety]] — Guardrail 模式的安全实践
-- [[agent-engineering]] — Agents SDK 体现的 Agentic Engineering 思想
+- [[multi-agent-framework-integration]] — Agents SDK 在框架全景中的位置
+- [[agent-security-safety]] — Guardrail 是 Agents SDK 的核心安全原语
+- [[agent-engineering]] — 体现 Python-first 的 Agentic Engineering 思想
+- [[agent-architecture-evolution]] — Handoff 模式是联邦阶段的典型模式
 
 ---
 _最后更新：2026-04-16_

@@ -76,9 +76,11 @@ Structured DB (事实) ──┘
 - 可考虑添加中期记忆层和知识图谱关系
 
 ## 关联
-- [[knowledge-vs-memory]] — 知识库 vs 记忆的本质区别
+- [[agent-engineering]] — 知识库 vs 记忆的本质区别
 - [[multi-agent-framework-integration]] — 多 Agent 中的记忆共享
 - [[agent-engineering]] — Memory 是 Agent 的核心能力
+- [[project-lessons]] — 各项目的经验教训
+- [[prompt-engineering-evolution]] — 记忆能力是 Agentic Engineering 的进化点
 
 ---
 _最后更新：2026-04-16_
