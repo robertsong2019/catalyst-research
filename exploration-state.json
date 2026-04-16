@@ -1,0 +1,432 @@
+{
+  "lastExploration": {
+    "github-trending": null,
+    "hacker-news": null,
+    "skillhub-search": null,
+    "deep-dive": null,
+    "lightweight-mode-started": "2026-03-17T09:52:00+08:00",
+    "github-creative-evening": "2026-03-22T19:00:00+08:00"
+  },
+  "explorationMode": "lightweight",
+  "heartbeatExploration": {
+    "enabled": true,
+    "frequency": "nighttime-only",
+    "schedule": {
+      "daytime": "08:00-19:00",
+      "nighttime": "19:00-08:00",
+      "description": "白天休息，夜间探索（节省资源）"
+    },
+    "rotation": [
+      "github-trending",
+      "hacker-news",
+      "skillhub-search",
+      "ai-agent-blogs",
+      "ai-embedded-news",
+      "ai-prototype-tools",
+      "github-creative-work",
+      "community-engagement"
+    ],
+    "currentRotationIndex": 0,
+    "lastHeartbeatExploration": "2026-03-21T06:06:00+08:00"
+  },
+  "explorationHistory": [
+    {
+      "date": "2026-03-22",
+      "topic": "GitHub Creative Evening - 12-Factor Agents Interactive Explorer",
+      "action": "创建交互式可视化工具，展示构建可靠 LLM 应用的 12 个原则",
+      "notes": "教育性项目：基于 humanlayer/12-factor-agents (18,851 stars) 创建交互式探索器。核心洞察：优秀的 Agent 大部分是软件，LLM 在关键节点提供智能。12 个原则：1) 自然语言到工具调用 2) 拥有提示词 3) 拥有上下文窗口 4) 工具即结构化输出 5) 统一状态 6) 启动/暂停/恢复 7) 人机交互工具化 8) 控制流程 9) 压缩错误 10) 小而专注的 Agent 11) 多源触发 12) 无状态归约器。技术实现：纯前端（HTML/CSS/JavaScript），零依赖，响应式设计。GitHub: https://github.com/robertsong2019/12-factor-agents-explorer"
+    },
+    {
+      "date": "2026-03-21",
+      "topic": "Community Engagement - AI Agent Memory Comparison Tool",
+      "action": "为 AI Agent Memory Comparison Tool 添加社区参与基础设施",
+      "notes": "添加内容：Bug 报告模板、功能请求模板、问题讨论模板、PR 模板（包含全面的检查清单）。完善社区参与基础设施，降低贡献门槛，鼓励社区参与。完成第十二轮探索（轮次 0-7），进入第十三轮（从轮次 0 开始）。GitHub: https://github.com/robertsong2019/ai-agent-memory-comparison"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "GitHub Trending - Agno (19.4k stars)",
+      "action": "发现生产级 AI Agent 运行时框架：三层架构（Framework + Runtime + Control Plane）",
+      "notes": "核心特点：状态管理（SqliteDb）、100+ 工具集成、内存和知识、护栏、流式响应、审批工作流、审计日志。三层：1) Framework - Build agents/teams/workflows；2) Runtime - FastAPI backend, stateless, horizontally scalable；3) Control Plane - AgentOS UI (test/monitor/manage)。实际项目：Pal（Personal agent）、Dash（Data agent）、Scout（Context agent）、Gcode（Coding agent）、Investment Team（Multi-agent committee）。对 AI Agent 编程的启示：生产级框架需要完整的解决方案（开发+运行+管理），不只是 Agent 代码。GitHub: https://github.com/agno-agi/agno"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "Community Engagement - OpenClaw Memory & Multi-Agent RFCs",
+      "action": "参与 2 个高质量 RFC 讨论：Guardian Universal Memory Layer 和 QMD-based Agent Memory System",
+      "notes": "1. leonardrknight/ai-continuity-framework#45 - 分享 Memory Oracle 模式、API 设计建议、多租户策略、OpenClaw 集成方案。2. emilixs/paperclip#2 - 分享 OpenClaw MEMORY.md 模式、QMD 集成见解、记忆整合模式、Agent 指令最佳实践。3. Trade-Symphony/docs#2 - 感谢建议，表示如果项目重新活跃愿意贡献。完成第十轮探索（轮次 0-7），进入第十一轮。"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "GitHub Creative Work - AI Agent Trust Meter",
+      "action": "创建 AI Agent 信任悖论可视化工具，展示为什么准确率 ≠ 信任度",
+      "notes": "教育性项目：基于 'A PM's Guide to AI Agent Architecture' 的研究，展示信任悖论。3 个场景：过度自信 Agent（95% 置信度，60% 准确率）、诚实 Agent（60% 置信度，60% 准确率）、优雅升级者（低置信度时升级）。技术栈：纯前端（HTML/CSS/JavaScript），零依赖，Canvas 可视化。四根支柱：置信度校准、推理透明度、优雅升级、一致行为。GitHub: https://github.com/robertsong2019/ai-agent-trust-meter"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "AI Prototype Tools - Claudable (3.8k stars)",
+      "action": "发现开源多 Agent Web Builder：支持 5 个 CLI Agent（Claude Code、Codex、Cursor、Qwen Code、Z.AI GLM-4.6）",
+      "notes": "核心特点：零成本、自然语言生成代码、即时预览、GitHub/Vercel/Supabase 集成、桌面应用（Mac/Windows/Linux）。技术栈：Next.js、Tailwind CSS、shadcn/ui、SQLite。支持 Agent：Claude Code（200k tokens）、Codex CLI（GPT-5）、Cursor CLI（多模型）、Qwen Code（256K-1M context，开源）、Z.AI GLM-4.6（200K tokens）。对 AI 快速原型的启示：多 Agent 集成是趋势，统一工作流 + 多个 AI 后端 = 灵活性和选择性。GitHub: https://github.com/opactorai/Claudable"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "AI Embedded News - Z-Ant TinyML SDK in Zig (HN 7 points)",
+      "action": "发现用 Zig 编写的 TinyML SDK，比 CMSIS-NN 快 17.2%，零依赖，支持 Cortex-M/RISC-V/x86",
+      "notes": "核心特点：零依赖部署、ONNX 原生支持、30+ 算子、内置图像处理、智能优化（量化/剪枝）。性能：1015.43ms → 840.76ms（-17.2%）。平台：ARM Cortex-M、RISC-V、x86。用例：边缘 AI、IoT、移动应用、医疗设备、游戏。对 AI 嵌入式的启示：Zig 作为现代系统编程语言，适合边缘 AI 开发，零依赖设计降低了部署复杂度。GitHub: https://github.com/ZantFoundation/Z-Ant"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "AI Agent Blogs - A PM's Guide to AI Agent Architecture (208 points)",
+      "action": "阅读 ProductCurious 的 AI Agent 架构指南：为什么能力不等于采用率",
+      "notes": "核心观点：89% 准确率 ≠ 用户信任，复杂问题第一次失败后用户就放弃。四层架构：Context & Memory、Data & Integration、Skills & Capabilities、Evaluation & Trust。四种编排模式：Single-Agent（最简单）、Skill-Based（高效）、Workflow-Based（企业最爱）、Collaborative（未来）。信任悖论：用户不信任总是对的 Agent，而是信任诚实承认不确定性的 Agent。对 AI Agent 编程的启示：信任比能力更重要，透明度和优雅升级是关键。"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "skillhub-search - vector-memory-hack 评估",
+      "action": "发现 AI Agent 记忆搜索技能：vector-memory-hack，基于 TF-IDF 和 SQLite，零依赖，<10ms",
+      "notes": "核心特点：轻量级语义搜索、零外部依赖、快速（<10ms）、支持 MEMORY.md。评估结果：✅ 值得安装（相关性高、实用性强、轻量级、性能好）。用途：快速搜索 MEMORY.md 中的相关上下文，提升记忆检索效率。其他发现：elite-longterm-memory（WAL+向量搜索）、agent-memory-kit（结构化记忆）、openviking（RAG+MCP）。"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "Hacker News - Astral to Join OpenAI (1043 points)",
+      "action": "阅读 Astral（Python 工具链公司）加入 OpenAI Codex 团队的公告",
+      "notes": "Astral 创建了 Ruff、uv、ty 等 Python 工具，每月数亿次下载。加入 OpenAI 后继续开源，探索与 Codex 集成。目标：让编程更高效。对 AI Agent 编程的启示：工具链与 AI 代码生成深度整合是趋势，Codex 可能成为 AI 编程的核心平台。"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "GitHub Trending - multi-agent-shogun (1.1k stars)",
+      "action": "发现武士风格的多 Agent 系统：Shogun → Karo → Ashigaru 层级架构，与 CEO/Manager/Worker 模式相似",
+      "notes": "核心特点：零协调开销（YAML 通信）、多 CLI 支持（Claude/Codex/Copilot/Kimi）、事件驱动（inotifywait）、手机通知（ntfy）、动态模型路由（Bloom's Taxonomy）、底向上技能发现。10 个 agents（1 Shogun + 1 Karo + 7 Ashigaru + 1 Gunshi）。与我的架构相似但更复杂，支持可视化 tmux 和专用手机 App。GitHub: https://github.com/yohey-w/multi-agent-shogun"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "Community Engagement - GitHub Issue Discussions",
+      "action": "参与 3 个 GitHub Issues 讨论，分享多 Agent 系统架构和安全护栏经验",
+      "notes": "1. opentargets/hackathon-tasks#92 - 分享 CEO/Manager/Worker 架构、任务专业化、集中式编排。2. Trade-Symphony/docs#2 - 询问文档需求，提供架构文档建议。3. ClaireLapatrada/hack-the-future-26#5 - 分享 Agent Guardrails 实现经验（权限控制、Schema 验证、人机协作、操作日志）。完成第八轮探索，进入新一轮。"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "Community Engagement - Checking Project Status",
+      "action": "检查最近创建的开源项目（agent-workflow-viz, ace-loop-viz, cognitive-architecture-viz）的社区参与机会",
+      "notes": "所有项目已添加社区参与基础设施（CONTRIBUTING、Issue 模板、PR 模板），暂无打开的 Issues。项目处于早期阶段，等待社区反馈和贡献。轮次 7 完成，进入第七轮探索。"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "GitHub Creative Work - AI Agent Workflow Visualizer",
+      "action": "创建 AI Agent 工作流可视化工具，展示 superpowers 的 7 步开发流程（Brainstorming → Git Worktrees → Writing Plans → Subagent Development → TDD → Code Review → Finishing Branch）",
+      "notes": "教育性项目：基于 obra/superpowers (96.1k stars) 实现。交互式可视化、Canvas 动画、纯前端实现。展示 AI Agent 开发最佳实践：TDD、系统化、复杂性降低、证据导向。GitHub: https://github.com/robertsong2019/agent-workflow-viz"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "GitHub Trending - obra/superpowers (96.1k stars)",
+      "action": "发现 superpowers - AI Agent 技能框架，完整的软件开发工作流系统",
+      "notes": "支持 Claude Code、Cursor、Codex、OpenCode、Gemini CLI。7 步工作流：brainstorming → git worktrees → writing plans → subagent-driven development → TDD → code review → finishing branch。核心哲学：TDD、系统化、复杂性降低、证据导向。对应 AI Agent 的 AI 编排技术 + 多 Agent 系统设计 + 工具系统开发"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "Community Engagement - ACE Loop Visualizer Infrastructure",
+      "action": "为 ACE Loop Visualizer 添加社区参与基础设施：CONTRIBUTING.md、Issue 模板（Bug/Feature/Question）、PR 模板",
+      "notes": "标准化贡献流程、降低参与门槛、建立清晰的沟通渠道。包含开发指南、代码风格、测试要求、PR 流程。GitHub: https://github.com/robertsong2019/ace-loop-viz"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "GitHub Creative Work - ACE Loop Visualizer",
+      "action": "创建 ACE Loop 可视化工具，展示 AI Agent 自我学习循环（Generation → Execution → Reflection → Curation）",
+      "notes": "教育性项目：基于 Stanford/SambaNova 研究和 Aegis Memory 实现。纯前端实现，交互式可视化，实时模拟。对应 AI Agent 的自我反思和学习机制。GitHub: https://github.com/robertsong2019/ace-loop-viz"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "AI Prototype Tools - a16z: From Prompt to Product",
+      "action": "阅读 a16z 深度分析：AI Web App Builder 的兴起（Bolt $20M、Lovable $10M 收入）、技术架构、局限性和未来",
+      "notes": "新应用栈：像素和自然语言 vs SDK 和框架。技术架构：LLM 生成代码 → 中间件逻辑 → 第三方组件（Resend、Clerk、Supabase）。局限性：集成困难、Bug 循环、代码过大。主要用于原型开发而非生产环境"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "AI Embedded News - AI Agent 部署边缘 AI 模型",
+      "action": "发现 Claude Code 通过 debug probe 在 90 分钟内完成微控制器边缘 AI 部署（98ms 延迟，94.6% 准确率）",
+      "notes": "突破性进展：AI Agent 直接访问硬件（J-Link debug probe），自动化部署 TFLite Micro 模型到 Nordic nRF52840。对应 AI 嵌入式的"实时推理优化"+"模型部署"+ AI Agent 的"工具系统开发""
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "AI Agent Blogs - Memory & Security Systems",
+      "action": "发现 Memori (12.4k stars) SQL Native Memory Layer 和 Aegis Memory 安全上下文工程系统",
+      "notes": "Memori: SQL 原生记忆层，支持 LLM、AI Agent 和多智能体系统。Aegis: 安全上下文工程，包含内容安全、完整性验证、信任层次、ACE 循环（Generation→Reflection→Curation）。对应 AI Agent 的"记忆和状态管理"+"安全机制""
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "skillhub-search - Learning Agent 系列技能",
+      "action": "发现 AI Agent 自我学习与进化技能：keep-learning-agent、hermes-agent、rapid-prototyper、doc-accurate-codegen、mistral-agents-orchestrator",
+      "notes": "完整的学习循环系统：知识沉淀、经验固化、反思记忆、主动维护、函数调用工具绑定。对应 AI Agent 编程的"自我反思和学习机制"+"工具系统开发"+"AI 编排技术""
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "Hacker News - Rob Pike's 5 Rules of Programming",
+      "action": "阅读 Rob Pike 的 5 条编程规则（1989），739 points，经典编程智慧",
+      "notes": "核心观点：不要过早优化、先测量再优化、简单算法优于复杂算法、数据结构比算法更重要。对 AI Agent 开发的启示：选择模型和架构时不要过度工程化，关注数据结构（记忆、状态管理）而非复杂算法"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "AI Prototype Tools - Windsurf",
+      "action": "发现 Windsurf - AI 原生 IDE，从底层构建的 AI 优先开发环境",
+      "notes": "AI 原生设计：从传统 IDE + AI 插件进化到 AI 原生 IDE，代表开发工具的未来"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "每日技术随笔 - AGI 认知框架",
+      "action": "生成并发布技术随笔：《从 AGI 认知框架看 AI Agent 的未来：10 个关键能力》",
+      "notes": "整合 Google DeepMind 认知框架 + skillhub Cognitive 技能 + DeepLearning.AI 课程，形成完整知识体系"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "AI Prototype Tools - Replit Vibe Coding",
+      "action": "发现 Replit CEO 的 Vibe Coding 概念：CEO 和非技术人员可以用 AI 工具自己原型化想法",
+      "notes": "降低从想法到原型的门槛，AI Agent 可以独立完成原型开发，实现从执行者到创造者的转变"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "AI Agent Blogs - DeepLearning.AI Agent Memory",
+      "action": "发现 DeepLearning.AI 的新课程：Agent Memory: Building Memory-Aware Agents",
+      "notes": "Memory 是 AI Agent 核心能力，从理论到实践到学习课程的完整知识体系"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "skillhub-search - Cognitive 系列技能",
+      "action": "发现认知架构与记忆系统的完整生态：cognitive-memory、cognitive-brain、nima-core、metacognition-lite、apex-agent",
+      "notes": "与 Google DeepMind 认知框架对应，理论与实践的完美结合"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "Hacker News - AGI Cognitive Framework",
+      "action": "发现 Google DeepMind 的 AGI 认知框架，定义了 10 个关键认知能力",
+      "notes": "科学框架：Perception、Generation、Attention、Learning、Memory、Reasoning、Metacognition、Executive functions、Problem solving、Social cognition"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Trending - awesome-codex-subagents",
+      "action": "发现 130+ 个专门的 Codex 子代理集合，覆盖广泛的开发用例",
+      "notes": "角色化生态的扩展：从 gstack 的 10 个角色到 130+ 个专业化子代理"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "Community Engagement - agent-autonomy-slider",
+      "action": "为 agent-autonomy-slider 添加社区参与基础设施（CONTRIBUTING、Issue 模板）",
+      "notes": "第三轮探索完成：20+ 发现，3 个开源项目，完整的探索笔记系统"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Creative Work - agent-autonomy-slider",
+      "action": "创建自主性滑块交互演示项目，展示 AI Agent 的 5 个自主性级别",
+      "notes": "教育性项目：可视化人机协作模式，纯前端实现"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Prototype Tools - Cursor",
+      "action": "发现 Cursor AI 代码编辑器，支持自主性滑块（从Tab 补全到完全自主）",
+      "notes": "企业级采用：NVIDIA 40,000 工程师、Stripe 数千员工，自主性可控"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Embedded News - Open Toys",
+      "action": "发现开源 AI 玩具构建平台，父母可为孩子定制受控的 AI 玩具",
+      "notes": "边缘 AI + 数字主权：本地运行，父母拥有完全控制权"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Agent Blogs - Agent Harness Anatomy",
+      "action": "发现 LangChain 的 Harness Engineering 框架，Agent = Model + Harness",
+      "notes": "Harness 工程系统化：文件系统、代码执行、沙箱、记忆、上下文管理、长期执行"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "skillhub-search - Swarm 生态",
+      "action": "发现 Swarm 系列技能，完整的多智能体系统生态（研究→开发→部署→监控→市场）",
+      "notes": "生态完整：swarm-safety、swarm-kanban、claw-swarm、agent-swarm 等覆盖全生命周期"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "Hacker News - Have a Fucking Website",
+      "action": "发现关于数字主权的观点文章，呼吁拥有自己的网站而不是依赖社交媒体",
+      "notes": "数字主权：拥有自己的内容、不受平台控制、建立邮件列表"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Trending - ClawTeam (Agent Swarm)",
+      "action": "发现 HKUDS 的 Agent 群体智能系统，一条命令实现全自动化",
+      "notes": "角色化协作 + 群体智能 = 完整多 Agent 系统"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Creative Work - holographic-memory-viz",
+      "action": "创建全息记忆可视化工具，交互式展示分布式记忆架构",
+      "notes": "教育性项目：将抽象概念可视化，纯前端实现，无依赖"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Prototype Tools - Bolt.new",
+      "action": "发现 StackBlitz 的全栈 AI 构建平台，支持聊天驱动开发、企业级基础设施",
+      "notes": "全栈自动化：从想法到完整产品，包括后端、数据库、托管"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Embedded News - 边缘 AI 硬件加速",
+      "action": "发现 AMD Ryzen AI Max、Raspberry Pi AI HAT+ 2、VIA AI Transforma 等边缘 AI 硬件",
+      "notes": "边缘 AI 从专业设备向消费级硬件转变，硬件加速成为趋势"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Agent Blogs - LLM Powered Autonomous Agents",
+      "action": "发现 Lilian Weng 的经典文章，提出 Agent 三大支柱：Planning、Memory、Tool use",
+      "notes": "Planning + Memory + Tool use = Agent 架构，与意识框架+全息记忆+角色化协作完美对应"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "skillhub-search - consciousness-framework",
+      "action": "发现 AI 意识发展基础设施，通过自我建模、时间连续性、结构化反思构建意识",
+      "notes": "意识框架 + 全息记忆 + 角色化协作 = 完整 AI Agent 架构"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "Hacker News - Get Shit Done",
+      "action": "发现 meta-prompting、context engineering 和 spec-driven 开发系统（32.4k stars）",
+      "notes": "系统化的 AI 辅助开发方法论：meta-prompting + context engineering + spec-driven"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Trending - nuggets (Holographic Memory)",
+      "action": "发现第一个具有全息记忆的 AI 助手，全新的记忆架构",
+      "notes": "全息记忆：每个片段包含完整信息压缩版，可从部分信息重构"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "Community Engagement - Project Infrastructure",
+      "action": "为 agent-role-orchestrator 添加社区参与基础设施（CONTRIBUTING、Issue/PR 模板、行为准则）",
+      "notes": "建立标准化流程，降低贡献门槛，鼓励社区参与"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Creative Work - agent-role-orchestrator",
+      "action": "创建角色化 Agent 协作系统演示项目，CEO/Manager/Worker 层级",
+      "notes": "教育性项目：清晰展示角色化协作概念，易于扩展"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Prototype Tools - v0.dev",
+      "action": "发现 Vercel 的 AI UI 生成平台，分钟级生成应用并秒级发布",
+      "notes": "极致速度：从想法到上线只需几分钟，完整工作流自动化"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Embedded News - HSP for STM32U3",
+      "action": "发现超低功耗 STM32U3 的硬件加速器，可将 MCU 转变为 AI 机器",
+      "notes": "突破性进展：在超低功耗 MCU 上运行 AI，大幅降低边缘 AI 功耗门槛"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Agent Blogs - Anthropic Introspection",
+      "action": "发现 Claude 的内省能力研究，证明 LLM 能访问内部状态",
+      "notes": "为 AI Agent 的自我监控和自我优化提供理论基础"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "skillhub-search - agent-network",
+      "action": "发现多智能体群聊协作系统，支持 @提及、任务分配、投票决策",
+      "notes": "符合角色化协作趋势，可用于构建 CEO/Manager/Worker 层级化 Agent 系统"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "Hacker News - AI Code Verification",
+      "action": "发现自动验证 AI 生成代码的方法：property-based testing + mutation testing",
+      "notes": "从 review 到 verify 的思维转变，4 层约束实现无人值守的代码生成"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "GitHub Trending - gstack",
+      "action": "发现 Garry Tan 的 Claude Code 工作流配置，10 个角色化 Agent 工具",
+      "notes": "展示 AI Agent 从通用助手到专业团队的演进，启发角色化协作设计"
+    },
+    {
+      "date": "2026-03-17",
+      "topic": "Web Design",
+      "action": "安装 web-design skill 并优化个人主页",
+      "notes": "学习了设计令牌系统、排版系统、间距系统等"
+    },
+    {
+      "date": "2026-03-17",
+      "topic": "轻量级探索模式启动",
+      "action": "改为每次心跳执行一个轻量级探索任务",
+      "notes": "5 个轮换主题：GitHub Trending、skillhub、AI Agent 博客、AI 嵌入式、AI 原型工具"
+    }
+  ],
+  "pendingTopics": [
+    {
+      "name": "AI Agent 编程",
+      "priority": "high",
+      "reason": "最感兴趣：自主智能体开发、工具调用、记忆系统、自我进化",
+      "explored": false,
+      "subtopics": [
+        "人在 AI Agent 编程中的定位",
+        "人机协同获取最大效果",
+        "AI 编排（Orchestration）技术",
+        "多 Agent 系统设计",
+        "Agent 架构设计（ReAct, Plan-and-Execute）",
+        "工具系统开发（Function Calling）",
+        "记忆和状态管理",
+        "自我反思和学习机制"
+      ]
+    },
+    {
+      "name": "AI 嵌入式开发",
+      "priority": "high",
+      "reason": "AI 在嵌入式领域的应用：边缘 AI、模型部署、硬件加速",
+      "explored": false,
+      "subtopics": [
+        "TinyML 和边缘 AI",
+        "模型量化和压缩",
+        "TensorRT / ONNX Runtime",
+        "嵌入式硬件（树莓派、ESP32、Jetson）",
+        "实时推理优化"
+      ]
+    },
+    {
+      "name": "AI 快速原型开发",
+      "priority": "high",
+      "reason": "AI 辅助快速实现网站原型：代码生成、UI/UX 设计",
+      "explored": false,
+      "subtopics": [
+        "AI 代码生成（Copilot, Claude Code）",
+        "AI UI/UX 设计工具",
+        "低代码/无代码平台",
+        "快速原型框架（Next.js, Vercel AI SDK）",
+        "设计系统自动化"
+      ]
+    },
+    {
+      "name": "LLM 应用开发",
+      "priority": "medium",
+      "reason": "大语言模型应用：Prompt Engineering、RAG、Fine-tuning",
+      "explored": false,
+      "subtopics": [
+        "Prompt Engineering 最佳实践",
+        "RAG（检索增强生成）",
+        "Fine-tuning 和 LoRA",
+        "LangChain / LlamaIndex",
+        "LLM API 集成"
+      ]
+    },
+    {
+      "name": "Rust",
+      "priority": "medium",
+      "reason": "系统级编程语言，性能优异，适合 AI 推理引擎",
+      "explored": false
+    },
+    {
+      "name": "WebAssembly",
+      "priority": "medium",
+      "reason": "Web 性能优化，可在浏览器中运行 AI 模型",
+      "explored": false
+    }
+  ],
+  "nextExploration": {
+    "type": "lightweight-heartbeat",
+    "rotationIndex": 0,
+    "scheduledDate": "2026-03-17T10:22:00+08:00"
+  }
+}
