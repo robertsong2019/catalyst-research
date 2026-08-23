@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Novel-37909b08",
+    "question": "Within the familial relationships described in the text, who is identified as the brother of Typho?",
+    "source": "Novel-30752",
+    "context": "## Relevant Entities\n- Text (entity)\n- Typho (entity)\n- three sisters, and a little brother of five (entity)\n- Within (entity)\n- Typho End (entity)\n## Relations\n- He is the eldest of the family, twenty-four years old, and --has--> three sisters, and a little brother of five",
+    "evidence": "Osiris is the brother of Typho.",
+    "question_type": "Fact Retrieval",
+    "generated_answer": "Text",
+    "ground_truth": "Osiris is the brother of Typho."
+  },
+  {
+    "id": "Novel-0f0d4401",
+    "question": "According to the narrative's discussion of symbolism, what number was regarded as a mystic number among the Egyptians?",
+    "source": "Novel-30752",
+    "context": "## Relevant Entities\n- been written among her own family and kindred (entity)\n- Hoa-Ana, or Oannes, according to the Maya would mean, he who (entity)\n- Egyptians (entity)\n- Among (entity)\n- According (entity)\n## Relations\n- If this memoir represents her faithfully, it is because it --has--> been written among her own family and kindred\n- Hoa-Ana, or Oannes, according to the Maya would mean, he who --has--> his residence or house on the water",
+    "evidence": "SEVEN was a mystic number among Egyptians.",
+    "question_type": "Fact Retrieval",
+    "generated_answer": "been written among her own family and kindred",
+    "ground_truth": "SEVEN was a mystic number among Egyptians."
+  },
+  {
+    "id": "Novel-7de89db4",
+    "question": "What aspects of Dr. Elsie Inglis\u2019s life, such as her attendance at undenominational Y.W.C.A. meetings, her use of the Euchologion, and her relationship with Dr. Wallace Williamson, indicate a commitment to ongoing learning and spiritual growth alongside her humanitarian work?",
+    "source": "Novel-51410",
+    "context": "## Relevant Entities\n- There (entity)\n- Dr. D (entity)\n- Dr. MacGregor (entity)\n- Her equipment (entity)\n- Elsie is very well, but she (entity)\n## Relations\n- and his own work at Washington --has--> shed a lustre on American astronomy\n- Dr. D --is_a--> Aberdeen man and a great admirer of George Smith\n- Asaph prospered, and in 1767 --created--> himself a large house\n- \u201d And Angeline herself wrote: \u201cMy health --has--> been quite good ever since I came here\n- One of the hospitals mother --has--> been collecting so much money for is here\n- Sugar is made from the sap of this tree, which --is_a--> very useful article\n- There --is_a--> great advantage in obscurity\n- There --is_a--> huge cabin with one berth\n- There --is_a--> silly and sentimental piece entitled \u201cMrs\n- There --is_a--> terrible excitement in Boston\n- There --is_a--> story that, while a town in Serbia was under bombardment, Dr\n- \u2019 Mr. Inglis, equally sceptical --has--> more satisfactory solution for dressmaking\n- \u2018Dr. B --has--> most absurd way of agreeing with everything you say\n- Mrs. de la Cherois --has--> been here\n- St. Andrews --has--> done very well--degrees and mixed classes from next October\n- She took possession of her the moment she was born, as she --has--> done with all of you\n- In Lydia\u2019s mirthfulness there --is_a--> strong tincture of the sarcastic and the droll\n- Mr. G --has--> just been here\n- There it --has--> done good service for twenty years\n- The design for the book cover --has--> been drawn by Dr\n- Poor little Johnnie --has--> had a great many troubles in his little life has he not\n- He --has--> eyes, I believe, in the back of his head and ears everywhere\n- The moral and intellectual training of her sons --has--> lready been referred to\n- Jasper --has--> left home again said he was going to Syracuse\n- Angeline --has--> n imagination that glows rather than sparkles\n- Hoa-Ana, or Oannes, according to the Maya would mean, he who --has--> his residence or house on the water\n- for he --has--> come to try to seduce her in the name of another\n- It --is_a--> episode on which it is now unnecessary to dwell, and Dr\n- The only other person here --is_a--> native from the Nizam\u2019s Dominions\n- In fact, her future husband was one of her pupils, and --has--> borne witness that she was a \u201cgood, careful teacher\n- She is an intelligent woman though she --has--> had very little opportunity for book learning\n- The portrait of Alexander, in the dress of the period --has--> characteristic features of the race descended from him\n- Dr. MacGregor --has--> trekked for Novi Bazaar\n- One of them --is_a--> shirt finisher\n- It evidently thinks St. Andrews --has--> opened the flood-gates, and now there is the deluge\n- If this memoir represents her faithfully, it is because it --has--> been written among her own family and kindred\n- The last probably to cause the wayfarer to remember he --has--> to die\n- Their protecting spirit --is_a--> _Serpent_, the totem of their father CAN\n- She --has--> no sound Christian principle to guide her\n- He is the eldest of the family, twenty-four years old, and --has--> three sisters, and a little brother of five\n- quite fairly often there --is_a--> party at one of the regiments here\n- She used to say, \u201cSomebody --has--> got to make a sacrifice,\u201d and she sacrificed herself\n- \u201d\u2019 A patient --has--> llowed some of her written prescriptions to be quoted\n- She has had a bad operation, but nothing --has--> ever disturbed her equilibrium\n- The Sugar Maple --is_a--> very beautiful as well as useful tree\n- \u2019 There --is_a--> characteristic last touch\n- It --is_a--> _huge_ success, and I do think Dr\n- \u2018Really, it is wonderful the work this unit --has--> done in the most awful stress all through March and April\n- His regiment is at the front, and he --has--> been left for some special work, and he seems rather lonely\n- It --is_a--> lovely land, and the views round here are very cheering\n- Her equipment --has--> ll come, and yesterday I sent Mrs\n- Every letter or story of her --part_of--> a consistent whole\n- People attribute it to the wonderful comet which --has--> been visible in the southern hemisphere\n- \u2018The _Herald_ --has--> n article about wild women\n- \u2018Fancy who --has--> been here this evening--Bailie Walcot\n- I think she wanted to help us because of all the hospital --has--> done here\n- The Director --has--> put the sanitation and the laundry into our hands also\n- Elsie is very well, but she --is_a--> very little thing with a very wee face\n- _The Englishwoman_, April and June 1916 --has--> two articles written by Dr\n- The \u2018common cause\u2019 to which she gave so much of her life --has--> now been won\n- It --is_a--> thing to be thought about\n- It --is_a--> beautiful day, the warmest we have had this spring\n- It --has--> beautiful architecture, and is placed in delightful woods\n- It --is_a--> comfort to feel you are all thinking of us\n- It --has--> been observed that St\n- It --is_a--> perfect joy to walk through it to meals\n- She --is_a--> great woman\n- She --is_a--> separate and important deity\n- She --has--> got hold now like a strong dog\n- She --has--> ll our equipment, fourteen of our cars\n- She --has--> fine looking son at Whitehall\n- She --is_a--> artist\u2019s wife\n- He --is_a--> fine looking man\n- He --is_a--> M.P\n- He --is_a--> nice boy, and brings nice horses for us to ride\n- He --is_a--> rank Socialist\n- He --has--> come up to London on Parliamentary business\n- He --has--> been awfully naughty--the wretch",
+    "evidence": "Elsie Inglis attended faith-based meetings.; Elsie Inglis used religious texts.; Elsie Inglis learned from mentors.; Elsie Inglis showed a commitment to personal development alongside her humanitarian work.",
+    "question_type": "Contextual Summarize",
+    "generated_answer": "There",
+    "ground_truth": "Elsie Inglis demonstrated a deep commitment to ongoing learning and spiritual growth by immersing herself in faith-based gatherings such as undenominational Y.W.C.A. meetings, thoughtfully engaging with religious texts like the Euchologion, and seeking guidance from mentors such as Dr. Wallace Williamson. These practices reveal that, even as she poured her energy into humanitarian and medical work, she continually nurtured her inner life\u2014balancing her outward service with a persistent quest for personal and spiritual development."
+  },
+  {
+    "id": "Novel-6c90555e",
+    "question": "How does the storyline in the novel construct the movement of the Itzaes and their interactions with other groups during periods of invasion?",
+    "source": "Novel-30752",
+    "context": "## Relevant Entities\n- Itzaes (entity)\n- During (entity)\n- Crafts Movement (entity)",
+    "evidence": "The Itzaes speak the Maya language.; The Itzaes retreated before the Nahualt.; The Nahualt invaded Mayab.",
+    "question_type": "Contextual Summarize",
+    "generated_answer": "Itzaes",
+    "ground_truth": "The storyline vividly portrays the Itzaes, speakers of the ancient Maya tongue, as they are forced to abandon their cities and ancestral lands in the face of the advancing Nahualt invaders. Driven from Mayab, the Itzaes seek refuge in the remote islands of Lake Peten and the nearly inaccessible mountain valleys, where they strive to preserve their customs, language, and way of life. This movement not only highlights the resilience of the Itzaes but also reveals the complex and often tumultuous interactions between different groups vying for survival and identity in the region."
+  },
+  {
+    "id": "Novel-65be7ca5",
+    "question": "Rewrite the sequence of C. A. S. Hall thinking of Asaph Hall and writing to Percival as a reflective diary entry.",
+    "source": "Novel-58553",
+    "context": "## Relevant Entities\n- Asaph prospered, and in 1767 (entity)\n- comfort to feel you are all thinking of us (entity)\n- Hall (entity)\n- Asaph (entity)\n- fine looking son at Whitehall (entity)\n## Relations\n- It --is_a--> comfort to feel you are all thinking of us\n- Asaph prospered, and in 1767 --created--> himself a large house\n- She --has--> fine looking son at Whitehall\n- Miss Garrett --has--> been to-day painting the hall for the Chicago Exhibition\n- It --is_a--> thing to be thought about\n- It --is_a--> beautiful day, the warmest we have had this spring\n- It --has--> beautiful architecture, and is placed in delightful woods\n- It --is_a--> _huge_ success, and I do think Dr\n- It --is_a--> lovely land, and the views round here are very cheering\n- It --has--> been observed that St\n- It --is_a--> perfect joy to walk through it to meals\n- It --is_a--> episode on which it is now unnecessary to dwell, and Dr\n- She --is_a--> great woman\n- She --is_a--> separate and important deity\n- She --has--> got hold now like a strong dog\n- She --has--> ll our equipment, fourteen of our cars\n- She --has--> no sound Christian principle to guide her\n- She --is_a--> artist\u2019s wife",
+    "evidence": "C. A. S. Hall thought of Asaph Hall while writing to Percival.; Asaph Hall's example inspires C. A. S. Hall to work diligently.; Sam has been a great help to C. A. S. Hall lately.; Angeline Hall organized the boys to help Sam.; C. A. S. Hall is grateful for the family's support.",
+    "question_type": "Creative Generation",
+    "generated_answer": "Asaph prospered, and in 1767",
+    "ground_truth": "Diary Entry \u2014 Today, as I wrote to Percival, thoughts of Asaph Hall crossed my mind. His example inspires me to continue working diligently. Sam has been a great help lately, thanks to Angeline Hall's organization of the boys. Our family ties run deep, and I am grateful for their support."
+  },
+  {
+    "id": "Novel-46ec9d7b",
+    "question": "According to the subgraphs, what uses and products are associated with trees?",
+    "source": "Novel-58553",
+    "context": "## Relevant Entities\n- According (entity)\n- Hoa-Ana, or Oannes, according to the Maya would mean, he who (entity)\n- Accordingly (entity)\n- Houses (entity)\n- his residence or house on the water (entity)\n## Relations\n- Hoa-Ana, or Oannes, according to the Maya would mean, he who --has--> his residence or house on the water",
+    "evidence": "Sugar Maple is used for making furniture.; Trees are used for cooking victuals.; Trees are used to keep us warm.; Sugar is made from Sugar Maple.",
+    "question_type": "Contextual Summarize",
+    "generated_answer": "According",
+    "ground_truth": "Sugar Maple is used for making furniture, trees are used for cooking victuals and to keep us warm, and sugar is made from Sugar Maple."
+  },
+  {
+    "id": "Novel-350fb80a",
+    "question": "What notable archaeological discovery did the author make at Chichen-Itza, as described in the narrative?",
+    "source": "Novel-30752",
+    "context": "## Relevant Entities\n- Author (entity)\n- _imitation_ of admired authors (entity)\n- got to make a sacrifice,\u201d and she sacrificed herself (entity)\n- Itza (entity)\n- Make (entity)\n## Relations\n- Not that it --is_a--> _imitation_ of admired authors\n- She used to say, \u201cSomebody --has--> got to make a sacrifice,\u201d and she sacrificed herself\n- She says everybody --has--> to make mistakes",
+    "evidence": "Chichen-Itza has a statue discovered by the author.; The statue discovered by the author is named Chaacmol.",
+    "question_type": "Fact Retrieval",
+    "generated_answer": "Author",
+    "ground_truth": "Chichen-Itza has a statue discovered by the author, Chaacmol."
+  },
+  {
+    "id": "Novel-2fc64004",
+    "question": "With which regions did the Mayas have relations, as discussed in the narrative's account of their contact with foreign lands?",
+    "source": "Novel-30752",
+    "context": "## Relevant Entities\n- Foreign (entity)\n- Mayas (entity)\n- Now the Mayas called LA, that which (entity)\n- Foreign Office (entity)\n- Foreign Affairs (entity)\n## Relations\n- Now the Mayas called LA, that which --has--> existed for ever, the truth _par excellence_",
+    "evidence": "The Mayas had relations with Asiatic peninsulas.",
+    "question_type": "Fact Retrieval",
+    "generated_answer": "Foreign",
+    "ground_truth": "The Mayas had relations with Asiatic peninsulas."
+  },
+  {
+    "id": "Novel-c8e42c69",
+    "question": "What was the political affiliation of Dr. Inglis, as referenced in her participation in public and political life?",
+    "source": "Novel-51410",
+    "context": "## Relevant Entities\n- There (entity)\n- Dr. D (entity)\n- Dr. MacGregor (entity)\n- Her equipment (entity)\n- \u201d And Angeline herself wrote: \u201cMy health (entity)\n## Relations\n- Dr. D --is_a--> Aberdeen man and a great admirer of George Smith\n- \u201d And Angeline herself wrote: \u201cMy health --has--> been quite good ever since I came here\n- One of the hospitals mother --has--> been collecting so much money for is here\n- There --is_a--> great advantage in obscurity\n- There --is_a--> huge cabin with one berth\n- There --is_a--> silly and sentimental piece entitled \u201cMrs\n- There --is_a--> terrible excitement in Boston\n- There --is_a--> story that, while a town in Serbia was under bombardment, Dr\n- \u2019 Mr. Inglis, equally sceptical --has--> more satisfactory solution for dressmaking\n- \u2018Dr. B --has--> most absurd way of agreeing with everything you say\n- Mrs. de la Cherois --has--> been here\n- St. Andrews --has--> done very well--degrees and mixed classes from next October\n- She took possession of her the moment she was born, as she --has--> done with all of you\n- In Lydia\u2019s mirthfulness there --is_a--> strong tincture of the sarcastic and the droll\n- Mr. G --has--> just been here\n- There it --has--> done good service for twenty years\n- The design for the book cover --has--> been drawn by Dr\n- He --has--> eyes, I believe, in the back of his head and ears everywhere\n- Poor little Johnnie --has--> had a great many troubles in his little life has he not\n- The moral and intellectual training of her sons --has--> lready been referred to\n- Angeline --has--> n imagination that glows rather than sparkles\n- for he --has--> come to try to seduce her in the name of another\n- It --is_a--> episode on which it is now unnecessary to dwell, and Dr\n- The only other person here --is_a--> native from the Nizam\u2019s Dominions\n- In fact, her future husband was one of her pupils, and --has--> borne witness that she was a \u201cgood, careful teacher\n- The portrait of Alexander, in the dress of the period --has--> characteristic features of the race descended from him\n- Dr. MacGregor --has--> trekked for Novi Bazaar\n- One of them --is_a--> shirt finisher\n- It evidently thinks St. Andrews --has--> opened the flood-gates, and now there is the deluge\n- If this memoir represents her faithfully, it is because it --has--> been written among her own family and kindred\n- Their protecting spirit --is_a--> _Serpent_, the totem of their father CAN\n- She --has--> no sound Christian principle to guide her\n- He is the eldest of the family, twenty-four years old, and --has--> three sisters, and a little brother of five\n- quite fairly often there --is_a--> party at one of the regiments here\n- \u201d\u2019 A patient --has--> llowed some of her written prescriptions to be quoted\n- She has had a bad operation, but nothing --has--> ever disturbed her equilibrium\n- \u2019 There --is_a--> characteristic last touch\n- It --is_a--> _huge_ success, and I do think Dr\n- His regiment is at the front, and he --has--> been left for some special work, and he seems rather lonely\n- It --is_a--> lovely land, and the views round here are very cheering\n- Her equipment --has--> ll come, and yesterday I sent Mrs\n- Every letter or story of her --part_of--> a consistent whole\n- People attribute it to the wonderful comet which --has--> been visible in the southern hemisphere\n- \u2018The _Herald_ --has--> n article about wild women\n- \u2018Fancy who --has--> been here this evening--Bailie Walcot\n- I think she wanted to help us because of all the hospital --has--> done here\n- The Director --has--> put the sanitation and the laundry into our hands also\n- She used to say, \u201cSomebody --has--> got to make a sacrifice,\u201d and she sacrificed herself\n- _The Englishwoman_, April and June 1916 --has--> two articles written by Dr\n- The \u2018common cause\u2019 to which she gave so much of her life --has--> now been won\n- It --is_a--> thing to be thought about\n- It --is_a--> beautiful day, the warmest we have had this spring\n- It --has--> beautiful architecture, and is placed in delightful woods\n- It --is_a--> comfort to feel you are all thinking of us\n- It --has--> been observed that St\n- It --is_a--> perfect joy to walk through it to meals\n- She --is_a--> great woman\n- She --is_a--> separate and important deity\n- She --has--> got hold now like a strong dog\n- She --has--> ll our equipment, fourteen of our cars\n- She --has--> fine looking son at Whitehall\n- She --is_a--> artist\u2019s wife\n- He --is_a--> fine looking man\n- He --is_a--> M.P\n- He --is_a--> nice boy, and brings nice horses for us to ride\n- He --is_a--> rank Socialist\n- He --has--> come up to London on Parliamentary business\n- He --has--> been awfully naughty--the wretch",
+    "evidence": "Dr. Inglis was affiliated with the Liberal political party.; Dr. Inglis participated in public and political life.",
+    "question_type": "Fact Retrieval",
+    "generated_answer": "There",
+    "ground_truth": "Liberal"
+  },
+  {
+    "id": "Novel-11c6c323",
+    "question": "Which region is described as having similarities with Mayab in the narrative?",
+    "source": "Novel-30752",
+    "context": "## Relevant Entities\n- Mayab (entity)\n- Having (entity)\n- In Mayab (entity)",
+    "evidence": "Siam has similarity with Mayab.",
+    "question_type": "Fact Retrieval",
+    "generated_answer": "Mayab",
+    "ground_truth": "Siam has similarity with Mayab."
+  }
+]

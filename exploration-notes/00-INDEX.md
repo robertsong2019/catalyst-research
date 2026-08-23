@@ -1,3 +1,9 @@
+# Catalyst Research Notes — Index
+
+> **Most Recent:** [World Models for Autonomous Agents (2026-07-05)](./2026-07-05-world-models-for-agents.md)
+
+---
+
 # AI Agent Programming - Comprehensive Learning Notes
 
 **Research Date:** 2026-03-28  
