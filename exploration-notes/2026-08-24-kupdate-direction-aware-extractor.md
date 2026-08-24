@@ -89,3 +89,14 @@ v9  +值-子句局域性 + weekday 专用门         54/78  回归 2   ★ 定�
 - ✅ 独到见解：方向二象性 + 实体守卫 + 三个负结果的 census 元规律
 - ✅ 项目关联：直接给出 C509+ 生产化路径与预期收益；机制移植链 #086→#087 明确
 - ✅ 实验记录：v1→v9 九轮轨迹含两次负结果，符合 autoresearch 快速循环+保留/回退
+
+## 7. C510 生产化裁决：RECORD-NEGATIVE（2026-08-24 21:35）
+
+C510 尝试将 v9 生产化，在移植前用 **virtual-flip census** 杀死于设计阶段（0 行生产代码）：
+
+- **方法**：门控正则（PERFECT/OFTEN/EARLY/CUR/RECENT，57/78 覆盖）+ r087 原型逻辑 + 生产 `exact_judge`，全量 500 题直接函数级评估，无需跑评测臂。
+- **致命发现 1——判分鸿沟**：原型 oracle 19→54 建立在关键词判分（gt 每词任意位置命中）上；生产 exact_judge 要求 gt **归一化后连续包含**于 pred。整行返回在生产判分下大面积失效：ku 类 57 fire 仅 21 通过（13 x→ok + 8 was→ok）。
+- **致命发现 2——形态不可分**：PERFECT 形态（"how many have I V-ed"）内部赢输共存（0ddfec37 输、06db6396 赢）——决定成败的是**选择质量**（sig-hits + 方向排序能否命中含 gt 的行），不是问句形态；无文本门控能把两者分开。
+- **致命发现 3——跨类劫持**：门控 124 fire 中 31 个 currently-correct 被翻错（SSU 5、temporal 9、multi 6、ku 11），净 -7。
+- **方法论产出（本 cycle 真正价值）**：virtual-flip census = 门控 + 原型逻辑 + 生产判分在函数级直接评估全库，**移植前杀死设计**，成本 ≈ 3 分钟，替代“移植→A/B 两臂→套件→台账”全链 ≈ 25 分钟。已升格为 #088+ 所有 answer-face 生产化的前置关卡（与 insight #252 append-only、STRICT form gate 并列）。
+- **v10 方向**：(a) 值跨提取代替整行返回（满足连续包含）；(b) 选择信号超越 sig-hits（值-签名距离已验证于 #086，可迁移）；(c) 或放弃 answer-face，走 judge 侧（LLM judge 对 kupdate 残差的救援路径，C462 已有基础设施）。
