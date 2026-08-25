@@ -1,0 +1,19 @@
+{
+ "off": {
+  "texts": 3470,
+  "calls": 26,
+  "sec": 270.0
+ },
+ "on": {
+  "texts": 3414,
+  "calls": 26,
+  "sec": 335.5,
+  "memo": {
+   "entries": 3401,
+   "hits": 56,
+   "misses": 3401
+  }
+ },
+ "lossless": true,
+ "why": "bitwise identical"
+}

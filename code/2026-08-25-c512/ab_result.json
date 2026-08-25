@@ -1,0 +1,23 @@
+{
+ "off": {
+  "texts": {
+   "texts": 0,
+   "calls": 0
+  },
+  "sec": 52.97369861602783
+ },
+ "on": {
+  "texts": {
+   "texts": 0,
+   "calls": 0
+  },
+  "sec": 52.21437048912048,
+  "memo": {
+   "entries": 0,
+   "hits": 0,
+   "misses": 0
+  }
+ },
+ "lossless": false,
+ "why": "row 0.latency_ms: 155.3798671811819 vs 171.7925127595663"
+}

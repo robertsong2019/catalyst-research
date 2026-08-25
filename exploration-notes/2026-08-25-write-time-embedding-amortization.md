@@ -93,3 +93,19 @@ del self._sess_vecs[sid_b]                    # tombstone：被吸收者退役
 - 独到见解 ✅（静态嵌入线性合并性=向量侧 tombstone / bench 6.1× 冗余判定最小落点 / 摊销让质量档可部署 / 新鲜度零新增一致性面）
 - 项目关联 ✅（直接映射 C512-A/B + consolidate 向量维护 + README；接续 #083 next-action #2 与 #081 tombstone 哲学）
 - 方法论对齐 ✅（明确指标：texts 计数/每题延迟/一致率；分母事故完整记录；负结果保留：神经档无代数性）
+
+---
+
+## 8. 勘误（08-25 晚 C512-A 判决：6.1× 冗余论被证伪）
+
+**C512-A 实施后 A/B 判决：跨题 memo 在真实协议触发面上收益 1.6%，生产代码已回退（C469/C510 先例），机制取证存 `code/2026-08-25-c512/`。**
+
+三重取证（/tmp/lme_s.json 真实语料 + 真 fastembed MiniLM 引擎）：
+
+1. **触发面 census**：sidechannel 是 form-gated（C473 纪律）——500 题中仅 77 题真正嵌入（pref/embed 29 题 + assistant-recall/hybrid 48 题），"500 × 270 = 135,000 次" 的分母虚高 6.5×。#088 在投影时忘记了自己项目的 form 门。
+2. **haystack 不相交**：LME-cleaned 每题自带独立 haystack 子集（非 per-user 共享池）——embed 形态 7,614 总 chunk / 7,445 unique = **1.02×**；hybrid 12,974/12,672 = **1.02×**。跨题重叠不存在。
+3. **管线内也无重复**：每题 retrieve_context 恰好调用 session_embedding_scores 1 次；sweep_abstention 设计上每题 1 次检索（C448"门=纯后检索决策"）。#088 假设的重复嵌入面在两个设计决策下都已被消灭。
+
+**A/B（13 pref 题，单进程同 PYTHONHASHSEED，真 MiniLM int8）**：OFF 270.0s/3,470 texts vs ON 335.5s/3,414 texts——**位级一致（LOSSLESS: True，含批组成不敏感验证，超 #088 的 model2vec 三重验证）**，但 hits=56/misses=3,401，墙上时钟反而 +24%（无可省冗余 + memo 开销）。
+
+**保留的有效结论**：① 位级无损设计本身正确（array('d') 精确往返；tuple 变体在 1GB 盒上 swap 击杀进程——boxaed float 12KB/vector vs 1.5KB）② POST 臂 ~570s 嵌入是**真独占工作**（20.6k unique texts），唯一提速路径是换快引擎（potion 69×）或跨进程持久缓存，不是进程内 memo ③ C512-B（FastAppendQueue 写时钩子）不受影响——那是生产库正确性问题，与 eval 协议冗余无关。④ 教训：**给机制做投影前先跑触发面 census（C510 insight #254 的检索侧版本）**——分母必须过 form 门。
